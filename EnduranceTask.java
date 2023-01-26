@@ -12,15 +12,12 @@ public class EnduranceTask extends Task{
         this.numOfActions = duration;
         this.actionsDone = 0;
         actionOption = Arrays.asList("jump", "run", "swim", "crawl", "climb");
-        
     }
     
-    @Override
     public List<String> getActionOptions() {
         return actionOption;
     }
 
-    @Override
     public boolean isComplete() {
         if (actionsDone == numOfActions){
             return true;
@@ -28,7 +25,6 @@ public class EnduranceTask extends Task{
         return false;
     }
 
-    @Override
     public boolean takeAction(String action) {
         if (!actionOption.contains(action)){
             throw new IllegalArgumentException("**Invalid action: " + action + "**");

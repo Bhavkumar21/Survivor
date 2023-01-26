@@ -3,7 +3,7 @@
 The popular TV show Survivor, like many other competition or "reality" shows, often puts its contestants through challenges consisting of a series of tasks that must be completed to earn a prize or reward. The challenges can take many different forms and require a wide range of skills. This project implements several classes to represent different types of tasks for a simulation of these types of challenges.
 
 ## Gameplay
-'''
+``` 
 Current task: A set of three hurdles.
 Previous actions: []
 Possible actions: [jump, run, swim, crawl, climb]
@@ -95,6 +95,6 @@ Your action? solve 4
   Task completed!
 
 Challenge complete. Congratulations!!!
-'''
+``` 
 ## Final Remarks
 This project was part of my CS 126 course I took during Winter 2023. I hope you enjoy playing the game!

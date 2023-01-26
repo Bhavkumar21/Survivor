@@ -10,7 +10,6 @@ import java.util.*;
 //  This class is a subclass of the PuzzleTask Class.
 public class AnagramTask extends PuzzleTask{
     private List<String> solutions;
-    private List<String> actionOption;
     private int actionsDone;
 
     // This constructor initializes all the needed fields to create
@@ -20,7 +19,6 @@ public class AnagramTask extends PuzzleTask{
     public AnagramTask(List<String> solutions, String description){
         super(solutions.get(0), description);
         this.solutions = solutions;
-        this.actionOption = Arrays.asList( "solve <solution>");
         this.actionsDone = 0;
     }
 
